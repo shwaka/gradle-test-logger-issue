@@ -27,6 +27,7 @@ tasks.test {
 testlogger {
     theme = com.adarshr.gradle.testlogger.theme.ThemeType.MOCHA
     showFullStackTraces = true
+    // filterFullStackTraces = "io\\.kotest.*"
 }
 
 tasks.withType<KotlinCompile>() {
